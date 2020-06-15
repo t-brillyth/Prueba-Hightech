@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/normalize.css">
+
+        <!--FONT-->
+        <link rel="stylesheet" href="https://font.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Knob/1.2.13/jquery.knob.min.js"></script>
+
+        <!--TITLE PAGE-->
+        <title>Page Title</title>
+    </head>
+    <body class="app">
+        <!--NAV-->
+        <nav>
+            <mask id="my-svg-mask">
+                <rect fill="#000000" x="0" y="0" width="400" height="600"></rect>
+                <polygon fill="#FFFFFF" points="200.5 152 349 449 52 449"></polygon>
+              </mask>
+            <ul>
+                <li>
+                    <a href="#" class="active"><img src="./img/nev_home.svg" alt=""><br/>Inicio</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/nav_history.svg" alt=""><br/>Historial</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/nav_ahorrar.svg" alt=""><br/>Ahorrar</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/nav_profile.svg" alt=""><br/>Mi perfil</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/nav_more.svg" alt=""><br/>Más</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--TOP  PHONE-->
+        <header class="header_app">
+            <div class="leftDiv">
+                <p>9:41</p>
+            </div>
+            <div class="rightDiv">
+                <img src="./img/mobile_signal.svg" alt="Señal">
+                <img src="./img/wifi.svg" alt=" wifi">
+                <img src="./img/battery.svg" alt="Bateria">
+            </div>
+        </header>
+        <section class="titleP">
+            <div class="leftDiv">
+                <h3>Hola, Camila</h3>
+            </div>
+            <div class="rightDiv">
+                <a href="#"><img src="./img/notifications.svg" alt="Icono notificación"></a>
+            </div>
+        </section>
+
+
+        <!--CARD SECTION-->
+        <section class="card_data">
+            <div class="card">
+                <img src="./img/img_card.png" alt="imagen tarjeta" class="card_img">
+                <p>Eres<br>estratega</p>
+                <br>
+                <p>
+                    Tu saldo
+                    <br>
+                    <b>$1.570.000</b>
+                </p>
+            </div>
+            <div class="data">
+                <table>
+                    <tr>
+                        <td>Inversión</td>
+                        <td>$1.600.000</td>
+                    </tr>
+                    <tr>
+                        <td>Rendimiento</td>
+                        <td>-$30.000</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        
+        <!--TOP  METAS-->
+        <div class="metasSection">
+            <section class="titleP">
+                <div class="leftDiv">
+                    <h3>Tus metas</h3>
+                </div>
+                <div class="rightDiv">
+                    <a href="#"><img src="./img/add.svg" alt="Icono notificación"></a>
+                </div>
+            </section>
+            <div class="metasDiv">
+                <div class="leftDiv">
+                    <img src="./img/meta_uno.png" alt="imagen playa">
+                   <p>Viaje a Islas Canarias</p>
+                   <table>
+                       <tr>
+                           <td> 
+                                <input type="text" value="20" class="dial">
+                           </td>
+                           <td>
+                                <p class="matasDiner">$1.630.000</p>
+                                <span>$8.000.000</span>
+                           </td>
+                       </tr>
+                   </table>
+                </div>
+                <div class="rightDiv">
+                    <img src="./img/meta_dos.png" alt="imagen computadora">
+                   <p>Macbook Pro</p>
+                   <table>
+                    <tr>
+                        <td> 
+                            <input type="text" value="0" class="dial">
+                        </td>
+                        <td>
+                             <p class="matasDiner">$0</p>
+                             <span>$7.000.000</span>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            </div>
+        </div>
+
+        <!--PORTFOLIO-->
+       <div class="porftolioSection">
+            <section class="titleP" id="portfolio">
+                <div class="leftDiv">
+                    <h3>Conoce tu portafolio</h3>
+                </div>
+                <div class="rightDiv">
+                    <p>Estratega</p>
+                </div>
+            </section>
+            <section class="slideporftolio">
+                <div class="example-figure">
+                    <img src="./img/ahorroIcon.png" alt="">
+                    <p style="color:#817699;">RoboAdvisor</p>
+                    <p style="font-size: 12px;
+                    line-height: 16px;">10 Fondos</p>
+                </div>
+                <div class="sliderPortfolio">
+                    <div class="logoPortf">
+                        <img src="./img/skandia_logo.png" alt=""><br/>
+                    <p>15%</p>
+                    </div>
+                    FIC Old Mutual Efectivo<br/>
+                    <strong>$240.000</strong><br/>
+                    <span>Tipo de activo</span><br/>
+                    <p class="text_mini">Renta fija <br> 
+                    Depósito a la fija</p>
+
+                    <aside>
+                        <img src="./img/left.svg" alt="">
+                        <img src="./img/right.svg" alt="">
+                    </aside>
+                </div>
+                <p style="clear: both;">Tu  dinero se invierte de la forma más eficiente de acuerdo al perfil de riesgo asignado por nuestro RoboAdvisor.</p>
+            </section>
+            
+       </div>
+
+
+        <!--AHORRO-->
+        <div class="ahorroSection">
+            <section class="titleP" id="ahorro">
+                <div class="leftDiv">
+                    <h3>Los P*t@s del ahorro</h3>
+                </div>
+            </section>
+           
+            <section class="videoAhorro">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <img src="./img/ahorro_img.png" style="width:100%">
+                      <div class="text">
+                          <a href="#"><img src="./img/play.svg" alt="play icono"></a>
+                          <h4>Esto es AHORRO</h4>
+                          <p>Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img src="./img/ahorro_img.png" style="width:100%">
+                        <div class="text">
+                            <h4>Esto es AHORRO 2</h4>
+                            <p>Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                        <img src="./img/ahorro_img.png" style="width:100%">
+                        <div class="text">
+                            <h4>Esto es AHORRO 3</h4>
+                            <p>Conoce como nuestro RoboAdvisor crea el mejor portafolio de inversión para ti.</p>
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="dotSlide" style="text-align:left;">
+                        <span class="dot" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="listAhorro">
+               <div class="column">
+                    <div class="sectionleft">
+                        <h5>10 gastos que debes evitar</h5>
+                        <p>Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                    </div>
+                    <div class="asideRight">
+                        <img src="./img/ahorrroUno.png" alt="">
+                    </div>
+               </div>
+               <div class="column">
+                    <div class="sectionleft">
+                        <h5>10 gastos que debes evitar</h5>
+                        <p>Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                    </div>
+                    <div class="asideRight">
+                        <img src="./img/ahorroDos.png" alt="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sectionleft">
+                        <h5>10 gastos que debes evitar</h5>
+                        <p>Aunque el 66% de los adultos recibió educación para el ahorro, apenas el 44% ahorra de manera fomal.</p>
+                    </div>
+                    <div class="asideRight">
+                        <img src="./img/ahorroTres.png" alt="">
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+       
+        <script src="js/script.js"></script>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html>
